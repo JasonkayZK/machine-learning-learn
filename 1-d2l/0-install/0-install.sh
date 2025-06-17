@@ -18,6 +18,8 @@ conda activate d2l
 
 # 如果机器没有NVIDIA GPU或CUDA，可以按如下方式MXNet的CPU版本：
 
+# Use: https://pypi.org/project/mxnet/1.7.0.post1/#files
+
 pip install mxnet==1.7.0.post1
 
 # 我们的下一步是安装d2l包，以方便调取本书中经常使用的函数和类：
