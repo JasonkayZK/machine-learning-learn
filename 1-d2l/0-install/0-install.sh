@@ -16,11 +16,16 @@ conda activate d2l
 #pip install mxnet-cu101==1.7.0 -f https://dist.mxnet.io/python
 # 可以根据CUDA版本更改如上mxnet-cu101的最后一位数字， 例如：CUDA 10.0是cu100， CUDA 9.0是cu90。
 
+## MXNet
 # 如果机器没有NVIDIA GPU或CUDA，可以按如下方式MXNet的CPU版本：
-
 # Use: https://pypi.org/project/mxnet/1.7.0.post1/#files
+#pip install mxnet==1.7.0.post1
 
-pip install mxnet==1.7.0.post1
+## PyTorch
+#我们可以按如下方式安装PyTorch的CPU或GPU版本：
+
+pip install torch==1.12.0
+pip install torchvision==0.13.0
 
 # 我们的下一步是安装d2l包，以方便调取本书中经常使用的函数和类：
 
